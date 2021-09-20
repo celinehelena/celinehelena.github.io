@@ -100,5 +100,5 @@ h2 {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0); 
 }
 .btn:hover{
-	box-shadow: 10px 10px 10px 5px #bab8b5;
+   box-shadow: 10px 10px 10px 5px #bab8b5;
 }
