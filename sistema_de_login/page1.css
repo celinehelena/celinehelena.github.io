@@ -1,0 +1,81 @@
+p{
+  font-size: 10pt;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+
+}
+p:hover{
+ overflow: visible;
+ margin-bottom: 40px;
+ text-overflow: initial;
+}
+span{
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  top: 32%;
+  left: 35%;
+}
+.container{
+  margin:0;
+  padding:0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: linear-gradient(#e6f3ff, #f3ffe6);
+  font-size: 20pt;
+}
+.header{
+  opacity: 0.7;
+  position: relative;
+  background-color: #004d4d;
+  background-image: url(./img/games.png);
+  background-repeat: no-repeat;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover !important;
+}
+h1{
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  opacity: 1;
+
+}
+h2{
+  text-align: center;
+}
+  
+.column{
+  float: left;
+  width: 30%;
+  padding: 0 15px;
+  margin-top: 20px;
+}
+.row {
+ margin: 0 -5px;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+   
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+}
